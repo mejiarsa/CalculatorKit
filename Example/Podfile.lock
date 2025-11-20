@@ -1,0 +1,16 @@
+PODS:
+  - CalculatorKit (0.1.0)
+
+DEPENDENCIES:
+  - CalculatorKit (from `../`)
+
+EXTERNAL SOURCES:
+  CalculatorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CalculatorKit: 1486ce604f49093e5cbf066e6a22714223810810
+
+PODFILE CHECKSUM: fcb7d9e8cbc81b889f9d482b7c2bcf88e6e539ac
+
+COCOAPODS: 1.16.2

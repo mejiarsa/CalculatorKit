@@ -1,0 +1,22 @@
+{
+  "name": "CalculatorKit",
+  "version": "0.1.0",
+  "summary": "A short description of CalculatorKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mejiarsa/CalculatorKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mejiarsa": "mejiarsa@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mejiarsa/CalculatorKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CalculatorKit/Classes/**/*"
+}

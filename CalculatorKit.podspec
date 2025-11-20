@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CalculatorKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CalculatorKit.'
+  s.version          = '1.0.0'
+  s.summary          = 'Library of a calculator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Used to test how to create a cocoapods library.'
 
   s.homepage         = 'https://github.com/mejiarsa/CalculatorKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
