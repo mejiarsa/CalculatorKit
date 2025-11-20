@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B25FCB3D426045DDA6B6921E3089E5 /* CalculatorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32837AD9A5C18A8FD1187E99F25D1396 /* CalculatorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B25FCB3D426045DDA6B6921E3089E5 /* CalculatorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EC0FAFC7C3CA07C271E25805A1C348 /* CalculatorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2678A30EAC2BD7A0D9090AC503EAFF05 /* Pods-CalculatorKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F50C87B9F3AD752A74FBC39F2EA4D4 /* Pods-CalculatorKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55747ECECCBFBB6745FCB56B2C8DDCE6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BBFE2D592DAFC9721AC2CAA8B8D775 /* ReplaceMe.swift */; };
+		2DE3D69FF92B311391886C1E1655C47C /* CalculatorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEBE5F06B45C90179149096C26E121 /* CalculatorKit-dummy.m */; };
 		57A2D19FED409DF794517C29E0FBC854 /* Pods-CalculatorKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6779A33496DCE24A2DDD4E4B268C9904 /* Pods-CalculatorKit_Example-dummy.m */; };
 		72EFC9E512E024D79FD5E2D41158D1FE /* Pods-CalculatorKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38FFEBA25114618B0841D9E838AC20 /* Pods-CalculatorKit_Tests-dummy.m */; };
 		81F2B1B060F54FC4AF32B3A3B6AC1824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		96F99DB4DAF98F95DC225955FFACA79B /* CalculatorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C60382AE55DB057A51A6DDE0BE5CD1 /* CalculatorKit-dummy.m */; };
 		9C1E02590A9C9EBE22A9D2A977BACF60 /* Pods-CalculatorKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C27B12C93AE4E267CCB92784227E013 /* Pods-CalculatorKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A27C1DD64B560CA5191C5D53411D8147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D51129C01ABC4BFE9156496F1719675B /* CalculatorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85101CCD068283E028EF82EC0433FF0 /* CalculatorKit.swift */; };
 		E1D994DA5E48FAB990BE383087100121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0589A74A526176103DA3DFCB95F7384F /* CalculatorKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CalculatorKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		0A315798DF5D06B3E35A89D60365D2EE /* CalculatorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalculatorKit.modulemap; sourceTree = "<group>"; };
+		12EC0FAFC7C3CA07C271E25805A1C348 /* CalculatorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalculatorKit-umbrella.h"; sourceTree = "<group>"; };
 		175B1912748A596BF732B1C493CDCB11 /* Pods-CalculatorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculatorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1EAE3B5B8C7C9A79B43DE95E767CDE4A /* Pods-CalculatorKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalculatorKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		297E3596CA132D96183ED9D10E70F243 /* Pods-CalculatorKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalculatorKit_Example-Info.plist"; sourceTree = "<group>"; };
+		2C046789DA58DA060F1C126DF385FF87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C72ABAC4D09D5014C386C46EBA8F722 /* CalculatorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalculatorKit.debug.xcconfig; sourceTree = "<group>"; };
 		31F50C87B9F3AD752A74FBC39F2EA4D4 /* Pods-CalculatorKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalculatorKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3263C07CC5928D02B2F5C03FE3E710FF /* CalculatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalculatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32837AD9A5C18A8FD1187E99F25D1396 /* CalculatorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalculatorKit-umbrella.h"; sourceTree = "<group>"; };
+		3263C07CC5928D02B2F5C03FE3E710FF /* CalculatorKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalculatorKit; path = CalculatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3AB03035B4FE61409984F6151D6EE5FE /* CalculatorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalculatorKit-prefix.pch"; sourceTree = "<group>"; };
-		3C81E7871AAE74AD6CDF63DB97C4DC2E /* Pods_CalculatorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		471AACFC12469DA93CBD09661F474EA7 /* Pods_CalculatorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C81E7871AAE74AD6CDF63DB97C4DC2E /* Pods-CalculatorKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CalculatorKit_Tests"; path = Pods_CalculatorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		471AACFC12469DA93CBD09661F474EA7 /* Pods-CalculatorKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CalculatorKit_Example"; path = Pods_CalculatorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C27B12C93AE4E267CCB92784227E013 /* Pods-CalculatorKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalculatorKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		57DAD6D5C6C1A9810B616CC216CF667B /* Pods-CalculatorKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculatorKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5D5829DEF476533335E48C2E461409C5 /* CalculatorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalculatorKit.modulemap; sourceTree = "<group>"; };
 		62503B7A2787673B596BE55C7BAEE0B5 /* Pods-CalculatorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculatorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6779A33496DCE24A2DDD4E4B268C9904 /* Pods-CalculatorKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalculatorKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6B695ABBF22088976AD7647A887AEFEF /* CalculatorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalculatorKit.release.xcconfig; sourceTree = "<group>"; };
+		7337F80DA86B7EADDC7399C60B9C0BDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		736955F98BBE9FCA300A848F4481C521 /* CalculatorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CalculatorKit-Info.plist"; sourceTree = "<group>"; };
 		7F75A6A3585A9A1768F7AE6CF626C276 /* Pods-CalculatorKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculatorKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7F7795073562DA8CF0207BF561CCFAA6 /* Pods-CalculatorKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalculatorKit_Example.modulemap"; sourceTree = "<group>"; };
 		837FC34695161BF19E0E31BE46ECC3F4 /* Pods-CalculatorKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalculatorKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87442E9B7470DE7D0C26077A1BC82032 /* Pods-CalculatorKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalculatorKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988B22D7C571A767335D76E688D6E927 /* CalculatorKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CalculatorKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A98AEA368005A714B6911187CF10B38F /* Pods-CalculatorKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalculatorKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		AF2B408B2D599AB7487DE28763668C25 /* Pods-CalculatorKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalculatorKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AFBEBE5F06B45C90179149096C26E121 /* CalculatorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalculatorKit-dummy.m"; sourceTree = "<group>"; };
 		B62D07703176E9E117CF11183F054CBD /* Pods-CalculatorKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalculatorKit_Tests.modulemap"; sourceTree = "<group>"; };
+		B85101CCD068283E028EF82EC0433FF0 /* CalculatorKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalculatorKit.swift; path = CalculatorKit/Classes/CalculatorKit.swift; sourceTree = "<group>"; };
 		D3A9B2B491FF92A4626ADDAAEDD82F77 /* Pods-CalculatorKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalculatorKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D87BE457601F057C20F7A199840D0354 /* CalculatorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CalculatorKit-Info.plist"; sourceTree = "<group>"; };
-		DE47EABBE9B2D94F6D76B5056CA4C2A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E3C60382AE55DB057A51A6DDE0BE5CD1 /* CalculatorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalculatorKit-dummy.m"; sourceTree = "<group>"; };
-		F71832E73141EB8F832FB5E6E0C98D9E /* CalculatorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalculatorKit.debug.xcconfig; sourceTree = "<group>"; };
-		F8C3D2809F09EEBF618D190DAB001FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F9BBFE2D592DAFC9721AC2CAA8B8D775 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CalculatorKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DE83392396C31029FE74682068B7EFD3 /* CalculatorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalculatorKit-prefix.pch"; sourceTree = "<group>"; };
+		E77A7C6AEF1A6D5B3F8E9E3D0C19F7F2 /* CalculatorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalculatorKit.release.xcconfig; sourceTree = "<group>"; };
 		FB38FFEBA25114618B0841D9E838AC20 /* Pods-CalculatorKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalculatorKit_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,43 +133,58 @@
 			path = "Target Support Files/Pods-CalculatorKit_Example";
 			sourceTree = "<group>";
 		};
+		5EB7A629FE32755DAEC01E5F20813070 /* CalculatorKit */ = {
+			isa = PBXGroup;
+			children = (
+				B85101CCD068283E028EF82EC0433FF0 /* CalculatorKit.swift */,
+				7D33A43D4A7652B83FBD9BFCC38C825B /* Pod */,
+				9E44CF5EC6EC5D2A90ADD25D9E93B7C9 /* Support Files */,
+			);
+			name = CalculatorKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7D33A43D4A7652B83FBD9BFCC38C825B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				988B22D7C571A767335D76E688D6E927 /* CalculatorKit.podspec */,
+				7337F80DA86B7EADDC7399C60B9C0BDE /* LICENSE */,
+				2C046789DA58DA060F1C126DF385FF87 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		87B632C4DF2BBB992CAC210025198555 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3263C07CC5928D02B2F5C03FE3E710FF /* CalculatorKit.framework */,
-				471AACFC12469DA93CBD09661F474EA7 /* Pods_CalculatorKit_Example.framework */,
-				3C81E7871AAE74AD6CDF63DB97C4DC2E /* Pods_CalculatorKit_Tests.framework */,
+				3263C07CC5928D02B2F5C03FE3E710FF /* CalculatorKit */,
+				471AACFC12469DA93CBD09661F474EA7 /* Pods-CalculatorKit_Example */,
+				3C81E7871AAE74AD6CDF63DB97C4DC2E /* Pods-CalculatorKit_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9509F35FA4BEC48C0148791B957E2AAA /* Pod */ = {
+		9E44CF5EC6EC5D2A90ADD25D9E93B7C9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0589A74A526176103DA3DFCB95F7384F /* CalculatorKit.podspec */,
-				DE47EABBE9B2D94F6D76B5056CA4C2A7 /* LICENSE */,
-				F8C3D2809F09EEBF618D190DAB001FC0 /* README.md */,
+				0A315798DF5D06B3E35A89D60365D2EE /* CalculatorKit.modulemap */,
+				AFBEBE5F06B45C90179149096C26E121 /* CalculatorKit-dummy.m */,
+				736955F98BBE9FCA300A848F4481C521 /* CalculatorKit-Info.plist */,
+				DE83392396C31029FE74682068B7EFD3 /* CalculatorKit-prefix.pch */,
+				12EC0FAFC7C3CA07C271E25805A1C348 /* CalculatorKit-umbrella.h */,
+				2C72ABAC4D09D5014C386C46EBA8F722 /* CalculatorKit.debug.xcconfig */,
+				E77A7C6AEF1A6D5B3F8E9E3D0C19F7F2 /* CalculatorKit.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CalculatorKit";
 			sourceTree = "<group>";
 		};
 		C567B4F43C535FF7E2E82DB33DF965FF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA3A5ECD3F6362788202FF4B18D96417 /* CalculatorKit */,
+				5EB7A629FE32755DAEC01E5F20813070 /* CalculatorKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CA3A5ECD3F6362788202FF4B18D96417 /* CalculatorKit */ = {
-			isa = PBXGroup;
-			children = (
-				F9BBFE2D592DAFC9721AC2CAA8B8D775 /* ReplaceMe.swift */,
-				9509F35FA4BEC48C0148791B957E2AAA /* Pod */,
-				EC5ACA59B733CFE4D1B95C707C1996B4 /* Support Files */,
-			);
-			name = CalculatorKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -197,21 +212,6 @@
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EC5ACA59B733CFE4D1B95C707C1996B4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D5829DEF476533335E48C2E461409C5 /* CalculatorKit.modulemap */,
-				E3C60382AE55DB057A51A6DDE0BE5CD1 /* CalculatorKit-dummy.m */,
-				D87BE457601F057C20F7A199840D0354 /* CalculatorKit-Info.plist */,
-				3AB03035B4FE61409984F6151D6EE5FE /* CalculatorKit-prefix.pch */,
-				32837AD9A5C18A8FD1187E99F25D1396 /* CalculatorKit-umbrella.h */,
-				F71832E73141EB8F832FB5E6E0C98D9E /* CalculatorKit.debug.xcconfig */,
-				6B695ABBF22088976AD7647A887AEFEF /* CalculatorKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CalculatorKit";
 			sourceTree = "<group>";
 		};
 		F55FD668CC1D281175F5495E083956E1 /* Targets Support Files */ = {
@@ -258,7 +258,7 @@
 			buildConfigurationList = 366C750FCFE41513AC186FCDECB2B15E /* Build configuration list for PBXNativeTarget "CalculatorKit" */;
 			buildPhases = (
 				21AF094E1A6266391C07688FAC410C4D /* Headers */,
-				BD15372A1496266D4524351D3E309086 /* Sources */,
+				19D3CEC14F894FCFF41C44AFA853195F /* Sources */,
 				9B8536215A4F594479B08B11396E2081 /* Frameworks */,
 				7F630D1B6DCFCAA17AFC1234747CE2C7 /* Resources */,
 			);
@@ -268,7 +268,7 @@
 			);
 			name = CalculatorKit;
 			productName = CalculatorKit;
-			productReference = 3263C07CC5928D02B2F5C03FE3E710FF /* CalculatorKit.framework */;
+			productReference = 3263C07CC5928D02B2F5C03FE3E710FF /* CalculatorKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		A24FEDF4F36F6BE8EEE647801B02E8A7 /* Pods-CalculatorKit_Tests */ = {
@@ -287,7 +287,7 @@
 			);
 			name = "Pods-CalculatorKit_Tests";
 			productName = Pods_CalculatorKit_Tests;
-			productReference = 3C81E7871AAE74AD6CDF63DB97C4DC2E /* Pods_CalculatorKit_Tests.framework */;
+			productReference = 3C81E7871AAE74AD6CDF63DB97C4DC2E /* Pods-CalculatorKit_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE6717E5B9AB55D246807A319C562A34 /* Pods-CalculatorKit_Example */ = {
@@ -306,7 +306,7 @@
 			);
 			name = "Pods-CalculatorKit_Example";
 			productName = Pods_CalculatorKit_Example;
-			productReference = 471AACFC12469DA93CBD09661F474EA7 /* Pods_CalculatorKit_Example.framework */;
+			productReference = 471AACFC12469DA93CBD09661F474EA7 /* Pods-CalculatorKit_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,6 +327,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 87B632C4DF2BBB992CAC210025198555 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -363,6 +365,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19D3CEC14F894FCFF41C44AFA853195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51129C01ABC4BFE9156496F1719675B /* CalculatorKit.swift in Sources */,
+				2DE3D69FF92B311391886C1E1655C47C /* CalculatorKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DE7ACA7FAADE663C14F7A4101111830 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,15 +387,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72EFC9E512E024D79FD5E2D41158D1FE /* Pods-CalculatorKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD15372A1496266D4524351D3E309086 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96F99DB4DAF98F95DC225955FFACA79B /* CalculatorKit-dummy.m in Sources */,
-				55747ECECCBFBB6745FCB56B2C8DDCE6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +570,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -576,7 +579,7 @@
 		};
 		850AD349C8142BED43FBE6CC61CEBE57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71832E73141EB8F832FB5E6E0C98D9E /* CalculatorKit.debug.xcconfig */;
+			baseConfigurationReference = 2C72ABAC4D09D5014C386C46EBA8F722 /* CalculatorKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -712,7 +715,7 @@
 		};
 		DF18EC11CCA9CFB92033C491851DFB9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B695ABBF22088976AD7647A887AEFEF /* CalculatorKit.release.xcconfig */;
+			baseConfigurationReference = E77A7C6AEF1A6D5B3F8E9E3D0C19F7F2 /* CalculatorKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import CalculatorKit
 
 class ViewController: UIViewController {
-
+    let calculator = CalculatorKit()
+    
+    @IBOutlet weak var result: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +23,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func actionAdd(_ sender: UIButton) {
+        result.text = "\(calculator.add(5, 2))"
+    }
+    
+    @IBAction func actionSubtract(_ sender: UIButton) {
+        result.text = "\(calculator.subtract(5, 2))"
+    }
+    
+    @IBAction func actionClearResult(_ sender: UIButton) {
+        result.text = "...."
+    }
 }
 

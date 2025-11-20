@@ -1,5 +1,5 @@
 PODS:
-  - CalculatorKit (0.1.0)
+  - CalculatorKit (1.0.0)
 
 DEPENDENCIES:
   - CalculatorKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CalculatorKit: 1486ce604f49093e5cbf066e6a22714223810810
+  CalculatorKit: 646b9fca5548d90f693af5c33bdf30be2b2771a0
 
 PODFILE CHECKSUM: fcb7d9e8cbc81b889f9d482b7c2bcf88e6e539ac
 
